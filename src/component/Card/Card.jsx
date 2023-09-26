@@ -1,6 +1,33 @@
 
+import swal from "sweetalert";
+
 const Card = ({card}) => {
-    const{card_bg,picture,description,category_bg,text_bg,id,category,price} =card||{}
+    const{id,picture,description,text_bg,category,price} =card||{}
+
+    const handleAddDonate =()=>{
+        const addallDonateArray =[];
+        const allDonate = JSON.parse(localStorage.getItem('donate'))
+        if (!allDonate) {
+            addallDonateArray.push(card)
+            localStorage.setItem('donate', JSON.stringify(addallDonateArray))
+            swal("Good job!", "Youre Donation successfully!", "success");
+        }
+        else{
+            const isExits = allDonate.find(card=>card.id==id)
+            if (!isExits) {
+                addallDonateArray.push(...allDonate,card)
+                localStorage.setItem('donate', JSON.stringify(addallDonateArray))
+                swal("Good job!", "Youre Donation successfully!", "success");
+            }
+            else{
+                swal("ERROR!", "Allredy Donated", "error");
+            }
+            
+        }
+
+        
+    }
+
     return (
         <div className="mt-20 ">
             <div className="">
@@ -10,7 +37,7 @@ const Card = ({card}) => {
             </div>
             
             <div className="relative  bottom-56 left-10">
-            <button className="bg- p-3 rounded font-semibold text-xl text-white" style={{background:text_bg}}>Donate {price}</button>
+            <button onClick={handleAddDonate} className="bg- p-3 rounded font-semibold text-xl text-white" style={{background:text_bg}}>Donate {price}</button>
             </div>
             <div className=" relative bottom-32 space-y-5">
                 <h1 className=" text-4xl font-bold">{category}</h1>

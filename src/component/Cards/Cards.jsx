@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+// eslint-disable-next-line react/prop-types
 const Cards = ({ cards }) => {
     const{card_bg,picture,text_bg,category_bg,title,id,category} =cards||{}
 
