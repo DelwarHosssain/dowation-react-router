@@ -1,0 +1,149 @@
+
+     [ 
+      {
+        "id": 1,
+        "picture": "https://i.ibb.co/SXJFXRK/Health.png",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg": "#aec8ff",
+        "card_bg": "#d9e5ff",
+        "text_bg": "#0052FF",
+        "donate_img": "https://i.ibb.co/VNG6K9p/Health1.png",
+        "description": "Promote better health with our clean water initiative for children. Your support ensures access to safe drinking water for kids in need.",
+        "price": "$290.00"
+      },
+      {
+        "id": 2,
+        "picture": "https://i.ibb.co/6Db92Zd/Education.png",
+        "title": "Education",
+        "category": "Good education",
+        "category_bg": "#ffc3c5",
+        "card_bg": "#ffe3e4",
+        "text_bg": "#ff454b",
+        "donate_img": "https://i.ibb.co/w7TbFL3/Education1.png",
+        "description": "Empower children with a brighter future through quality education. Your contribution helps provide access to good education for underserved communities.",
+        "price": "$290.00"
+      },
+      {
+        "id": 3,
+        "picture": "https://i.ibb.co/9qXsm5w/Clothing.png",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg": "#d4ecc1",
+        "card_bg": "#ebf6e2",
+        "text_bg": "#79c23f",
+        "donate_img": "https://i.ibb.co/zS2YpKJ/Clothing1.png",
+        "description": "Support our Used Clothing Drive and give gently worn clothing a new life. Your donation helps those in need while reducing textile waste.",
+        "price": "$290.00"
+      },
+      {
+        "id": 4,
+        "picture": "https://i.ibb.co/SJmd7TH/Food.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg": "#fdd2c4",
+        "card_bg": "#feeae3",
+        "text_bg": "#f87147",
+        "donate_img": "https://i.ibb.co/chzQYLj/Food1.png",
+        "description": "Join us in our mission to provide better food access to communities worldwide. Your support ensures everyone has access to nutritious food.",
+        "price": "$290.00"
+      },
+      {
+        "id": 5,
+        "picture": "https://i.ibb.co/SJmd7TH/Food.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg": "#fdd2c4",
+        "card_bg": "#feeae3",
+        "text_bg": "#f87147",
+        "donate_img": "https://i.ibb.co/chzQYLj/Food1.png",
+        "description": "Join us in our mission to provide better food access to communities worldwide. Your support ensures everyone has access to nutritious food.",
+        "price": "$290.00"
+      },
+      {
+        "id": 6,
+        "picture": "https://i.ibb.co/9qXsm5w/Clothing.png",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg": "#d4ecc1",
+        "card_bg": "#ebf6e2",
+        "text_bg": "#79c23f",
+        "donate_img": "https://i.ibb.co/zS2YpKJ/Clothing1.png",
+        "description": "Support our Used Clothing Drive and give gently worn clothing a new life. Your donation helps those in need while reducing textile waste.",
+        "price": "$290.00"
+      },
+      {
+        "id": 7,
+        "picture": "https://i.ibb.co/6Db92Zd/Education.png",
+        "title": "Education",
+        "category": "Good education",
+        "category_bg": "#ffc3c5",
+        "card_bg": "#ffe3e4",
+        "text_bg": "#ff454b",
+        "donate_img": "https://i.ibb.co/w7TbFL3/Education1.png",
+        "description": "Empower children with a brighter future through quality education. Your contribution helps provide access to good education for underserved communities.",
+        "price": "$290.00"
+      },
+      {
+        "id": 8,
+        "picture": "https://i.ibb.co/SXJFXRK/Health.png",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg": "#aec8ff",
+        "card_bg": "#d9e5ff",
+        "text_bg": "#0052FF",
+        "donate_img": "https://i.ibb.co/VNG6K9p/Health1.png",
+        "description": "Promote better health with our clean water initiative for children. Your support ensures access to safe drinking water for kids in need.",
+        "price": "$290.00"
+      },
+      {
+        "id": 9,
+        "picture": "https://i.ibb.co/SXJFXRK/Health.png",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg": "#aec8ff",
+        "card_bg": "#d9e5ff",
+        "text_bg": "#0052FF",
+        "donate_img": "https://i.ibb.co/VNG6K9p/Health1.png",
+        "description": "Promote better health with our clean water initiative for children. Your support ensures access to safe drinking water for kids in need.",
+        "price": "$290.00"
+      },
+      {
+        "id": 10,
+        "picture": "https://i.ibb.co/6Db92Zd/Education.png",
+        "title": "Education",
+        "category": "Good education",
+        "category_bg": "#ffc3c5",
+        "card_bg": "#ffe3e4",
+        "text_bg": "#ff454b",
+        "donate_img": "https://i.ibb.co/w7TbFL3/Education1.png",
+        "description": "Empower children with a brighter future through quality education. Your contribution helps provide access to good education for underserved communities.",
+        "price": "$290.00"
+      },
+      {
+        "id": 11,
+        "picture": "https://i.ibb.co/9qXsm5w/Clothing.png",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg": "#d4ecc1",
+        "card_bg": "#ebf6e2",
+        "text_bg": "#79c23f",
+        "donate_img": "https://i.ibb.co/zS2YpKJ/Clothing1.png",
+        "description": "Support our Used Clothing Drive and give gently worn clothing a new life. Your donation helps those in need while reducing textile waste.",
+        "price": "$290.00"
+      },
+      {
+        "id": 12,
+        "picture": "https://i.ibb.co/SJmd7TH/Food.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg": "#fdd2c4",
+        "card_bg": "#feeae3",
+        "text_bg": "#f87147",
+        "donate_img": "https://i.ibb.co/chzQYLj/Food1.png",
+        "description": "Join us in our mission to provide better food access to communities worldwide. Your support ensures everyone has access to nutritious food.",
+        "price": "$290.00"
+      }
+    ]
+
+  
