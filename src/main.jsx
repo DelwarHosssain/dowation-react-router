@@ -37,7 +37,8 @@ const router = createBrowserRouter([
       },
       {
         path:"/cards/:id",
-        element:<DonentData></DonentData>
+        element:<DonentData></DonentData>,
+        loader:()=> fetch('/public/Card.json')
       }
     ]
   },
