@@ -10,7 +10,7 @@ const DonateCard = ({card}) => {
                 <p className=" text-base md:text-2xl font-semibold">{category}</p>
                 <h2 className=" font-semibold text-base" style={{color:text_bg}}>{price}</h2>
                 <div className="card-actions justify-end">
-                <button  className="bg- py-1 px-3 md:px-5 rounded font-semibold  text-base  md:text-lg text-white" style={{background:text_bg}}>View Details</button>
+                <button  className="bg- py-1 px-3 md:px-5 rounded font-semibold  text-sm  md:text-lg text-white" style={{background:text_bg}}>View Details</button>
                 </div>
                 </div>
             </div>

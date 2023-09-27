@@ -6,17 +6,19 @@ const Card = ({card}) => {
 
     const handleAddDonate =()=>{
         const addallDonateArray =[];
-        const allDonate = JSON.parse(localStorage.getItem('domate'))
+
+        const allDonate = JSON.parse(localStorage.getItem('donate'))
+        
         if (!allDonate) {
             addallDonateArray.push(card)
-            localStorage.setItem('domate', JSON.stringify(addallDonateArray))
+            localStorage.setItem('donate', JSON.stringify(addallDonateArray))
             swal("Good job!", "Youre Donation successfully!", "success");
         }
         else{
             const isExits = allDonate.find(card=>card.id==id)
             if (!isExits) {
                 addallDonateArray.push(...allDonate,card)
-                localStorage.setItem('domate', JSON.stringify(addallDonateArray))
+                localStorage.setItem('donate', JSON.stringify(addallDonateArray))
                 swal("Good job!", "Youre Donation successfully!", "success");
             }
             else{
