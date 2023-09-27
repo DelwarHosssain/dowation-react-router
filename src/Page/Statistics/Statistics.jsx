@@ -1,19 +1,11 @@
 import React, { PureComponent, } from 'react';
-import { useLoaderData } from 'react-router-dom';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
-// const allDonate = (localStorage.getItem('donate'))
-// const donatedLadenght=allDonate.length;
-// console.log(donatedLadenght)
-// const cards =useLoaderData();
-// const allLadenght= cards.length;
-// console.log(allLadenght)
-
-// const data = [
-//   { name: 'Group A', value: (donatedLadenght) },
-//   { name: 'Group B', value: (allLadenght) },
+const data = [
+  { name: 'Group A', value: 400 },
+  { name: 'Group B', value: 300 },
   
-// ];
+];
 
 const COLORS = ['#0088FE', '#00C49F'];
 
@@ -36,7 +28,7 @@ export default class Statistics extends PureComponent {
 
   render() {
     return (
-     <div className='h-96 w-96'>
+     <div className='h-96 w-96   mx-auto flex justify-center items-center'>
          <ResponsiveContainer width="100%" height="100%">
         <PieChart width={400} height={400}>
           <Pie
