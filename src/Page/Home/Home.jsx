@@ -9,9 +9,7 @@ const Home = () => {
     console.log(card);
     return (
         <div className=" ">
-           
             <Banner></Banner>
-            
             
             <CardDonet CardDonet={card}></CardDonet>
         </div>

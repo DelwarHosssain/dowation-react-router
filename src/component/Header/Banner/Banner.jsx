@@ -15,13 +15,13 @@ const Banner = () => {
             <div className="absolute inset-0 flex items-center justify-center z-10">
 
                 <div className="mr-4">
-                <h1 className="text-black text-xl ml-5 md:text-5xl font-bold">
+                <h1 className="text-black text-xl ml-5  md:text-5xl font-bold">
                     I Grow By Helping People In Need
                 </h1>
                 <br />
                     <div className="join ml-16 md:ml-52">
-                    <input className="input input-bordered join-item p-1 md:p-3" placeholder="Email"/>
-                    <button className="btn join-item rounded-r bg-red-500 p-1 md:p-3">Subscribe</button>
+                    <input className="input input-bordered join-item p-0 md:p-3" placeholder="Email"/>
+                    <button className="btn join-item rounded-r bg-red-500 p-0 md:p-3">Subscribe</button>
                     </div>
                 </div>
             </div>

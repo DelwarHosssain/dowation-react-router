@@ -8,7 +8,7 @@ const Navbar = () => {
                 </div>
                 <div>
                 <ul className="flex gap-5 ">
-                    <li className="text-xs b">
+                    <li className="text-xs font-black">
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
@@ -18,7 +18,7 @@ const Navbar = () => {
                     Home
                     </NavLink>
                     </li>
-                    <li className="text-sm b">
+                    <li className="text-sm  font-black">
                     <NavLink
                         to="/Donation"
                         className={({ isActive, isPending }) =>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     Donation
                     </NavLink>
                     </li>
-                    <li className="text-sm b">
+                    <li className="text-sm font-black">
                     <NavLink
                         to="/Statistics"
                         className={({ isActive, isPending }) =>

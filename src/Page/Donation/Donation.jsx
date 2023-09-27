@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 
-import DonateCard from "../../component/DonateCard/DonateCard";
+import DonateCard from "../../component/DnateCard/DonateCard";
 
 
 const Donation = () => {
@@ -33,7 +33,7 @@ useEffect(()=>{
                     
             </div>
                 
-            {donaton.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto">
+            {donaton.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="mt-10 px-5 py-2 bg-green-200 block mx-auto">
             {isShow ? "See less" : "See more"}
           </button>
 }
