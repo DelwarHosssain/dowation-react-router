@@ -8,7 +8,7 @@ const Home = () => {
     
     console.log(card);
     return (
-        <div className="">
+        <div className=" ">
             <Banner></Banner>
             
             <CardDonet CardDonet={card}></CardDonet>

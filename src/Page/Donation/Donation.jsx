@@ -20,7 +20,7 @@ useEffect(()=>{
     return (
         <div>
             {noData?<p className="h-[80vh] flex justify-center items-center">{noData}</p> :<div>
-                <div className="grid grid-cols-2 gap-5 mt-10">
+                <div className="grid md:grid lg:grid xl:grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2  gap-5 mt-10">
                     {
                         donaton.map(card=><DonateCard key={card.id} card={card}></DonateCard>)
                     }
