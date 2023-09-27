@@ -25,6 +25,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="absolute inset-0 " style={{ background: "#fefeff", opacity: 0.5, zIndex: 5 }}>
+
             </div>
         </div>
     );
